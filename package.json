@@ -4,6 +4,9 @@
   "private": true,
   "description": "Vieroots order tracking backend",
   "scripts": {
-    "start": "node tracking-proxy.js"
+    "start": "node --env-file=.env tracking-proxy.js"
+  },
+  "engines": {
+    "node": ">=20.6.0"
   }
 }
