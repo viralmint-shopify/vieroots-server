@@ -239,6 +239,7 @@ const server = http.createServer(async (req, res) => {
       name: rawOrder.name,
       order_number: rawOrder.order_number,
       created_at: rawOrder.created_at,
+      cancelled_at: rawOrder.cancelled_at || null,
       financial_status: rawOrder.financial_status,
       fulfillment_status: rawOrder.fulfillment_status,
       currency: rawOrder.currency,
