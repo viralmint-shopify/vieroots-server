@@ -1,0 +1,9 @@
+{
+  "name": "vieroots-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Vieroots order tracking backend",
+  "scripts": {
+    "start": "node tracking-proxy.js"
+  }
+}
